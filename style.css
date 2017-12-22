@@ -1,0 +1,48 @@
+@font-face {
+    font-family: tintin;
+    src: url(assets/fonts/tintin.ttf)
+}
+header {
+    width: 100vw;
+    background: linear-gradient(to top right, #ffccff 1%, #66ccff 72%);
+    position: relative;
+}
+.linea_burger1, .linea_burger2, .linea_burger3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .linea_burger1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .linea_burger2 {
+    opacity: 0;
+}
+
+.change .linea_burger3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.banner{
+    height: 450px
+}
+header h1 {
+    font-family: futura;
+    font-size: 4em;
+    margin: 0px;
+    padding-left: 30px;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top right, #ffccff 1%, #66ccff 72%);
+    position: relative;
+}
+
+
